@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: 'brookeregular';
+    src: url('font/brooke-webfont.woff2') format('woff2'),
+         url('font/brooke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'mondresh_roughregular';
+    src: url('font/mondreshrough_demo-webfont.woff2') format('woff2'),
+         url('font/mondreshrough_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+ background-image:url(images/andernos.JPG);
+ background-repeat : no-repeat;
+ background-attachment : fixed;
+}
+/*css non pris en compte dans les "grandes divs"*/
+@media screen, (min-width: 426px) and (max-width: 1440px) {
+    
+}
+.permis{
+    
+    font-weight: bold;
+    font-family: 'brookeregular';
+    font-size: 1.3em;
+    text-align: right;
+    margin-right: 3%;
+}
+.span_titre{
+    margin: auto;
+    font-family: 'brookeregular';
+    font-weight: bold;
+    font-size: 1.8em;
+}
+mark{
+
+    background-color:  #FCB767;
+    border-radius: 5px;
+}
+.mise_en_page{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+/*css grande div*/
+
+.photo{
+    margin-left: 150px;
+}
+.photo_de_profil{
+
+    
+    border: #FCB767 solid 5px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.infos_complementaires{
+    margin-top: 20px;
+    width: 525px;
+    height: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+.case1{
+   
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #FCB767;
+}
+
+.span_case1{
+    font-family:  'mondresh_roughregular';
+    text-decoration: underline;
+    font-weight: normal;
+   margin-left: 20px;
+    
+}
+
+ul{
+    line-height: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+.a_propos_de_moi{
+    border-radius: 20px;
+    height: auto;
+    width: 520px;
+    background-color:#FCB767 ;
+}
+
+.hoby{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+/*css grande div 2*/
+
+h1{ 
+    border-radius: 30px;
+    background-color:  #FCB767;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'brookeregular';
+}
+
+.développeur{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2em;
+}
+
+.info_parcour{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FCB767;
+    border-radius: 5px;
+    
+}
+.job_formation{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+.emploi_formation_date{
+    padding-top: 5px;
+    font-family: 'mondresh_roughregular';
+   text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.renseignements{
+    margin-top: 1px;
+    
+}
+.span_bold{
+    font-weight: bold;
+
+}
+
+.formations{
+    margin-top: 10px;
+    background-color:#FCB767 ;
+}
+ /*code mobile*/
+
+@media screen and (max-width: 425px) {
+
+.permis{
+   text-align: center;
+}
+
+    
+}
